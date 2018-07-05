@@ -64,3 +64,33 @@ footer.page-footer {
     height: 64px;
     width: 280px;
 }
+
+.tabs .tab a {
+    color: #2196f3 !important;
+}
+
+
+/*Black color to the text*/
+
+.tabs .tab a:hover {
+    background-color: #e3f2fd;
+    color: white !important;
+}
+
+
+/*Text color on hover*/
+
+.tabs .tab a.active {
+    background-color: #90caf9;
+    color: black !important;
+}
+
+
+/*Background and text color when a tab is active*/
+
+.tabs .indicator {
+    background-color: #64b5f6;
+}
+
+
+/*Color of underline*/
