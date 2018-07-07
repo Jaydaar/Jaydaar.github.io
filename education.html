@@ -24,347 +24,356 @@
     <nav class="white" role="navigation">
         <div class="nav-wrapper container">
             <a id="logo-container" href="index.html" class="brand-logo"><img id="svg-img" class="responsive-img" src="img/drawing.svg" alt="Site Logo"></a>
-
             <ul class="right hide-on-med-and-down">
                 <li><a class="dropdown-trigger" href="#" data-target="screendropdown">Kevin Oudai<i class="material-icons right">arrow_drop_down</i></a></li>
             </ul>
-
             <ul id="nav-mobile" class="sidenav">
                 <li><a class="dropdown-trigger" href="#" data-target="mobiledropdown">Kevin Oudai<i class="material-icons right">arrow_drop_down</i></a></li>
             </ul>
             <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         </div>
     </nav>
-
-    <!-- Working on a tab table to organize the data -->
-
-    <!-- END OF THE TABBED SECTION -->
-    <div id="index-banner" class="parallax-container">
+    <!--PARALLAX SECTION-->
+    <div class="parallax-container valign-wrapper">
         <div class="section no-pad-bot">
-
             <div class="container">
-                <!-- TABS START HERE -->
-                <div class="row">
-                    <div class="col s12">
-                        <ul class="tabs">
-                            <li class="tab col s3"><a class="active blue-text" href="#test1">Formal Education</a></li>
-                            <li class="tab col s3"><a class="blue-text" href="#test2">Sololearn</a></li>
-                            <!-- <li class="tab col s3"><a class="blue-text" href="#test3">Udemy</a></li> -->
-                        </ul>
-                    </div>
-
-                    <div id="test1" class="col s12">
-                        <div class="card-panel">
-                            <span class="black-text">
-                                <table class="centered striped responsive-table">
-                                    <thead>
-                                        <tr>
-                                            <th><p>Name of Certification</p></th>
-                                            <th><p>Institute</p></th>
-                                            <th><p>Date Recieved</p></th>
-                                            <th>Certificate</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td><p>Caribbean Examinination Council Secondary Education Certificate</p></td>
-                                            <td><p>Barataria Senior Comprehensive School</p></td>
-                                            <td><p>June 2003</p></td>
-                                            <td>
-                                                <a class="waves-effect waves-light btn blue modal-trigger" data-target="cxcview"><i class="hide-on-med-and-down material-icons left">visibility</i> View</a>
-                                                <div id="cxcview" class="modal">
-                                                    <div class="modal-content">
-                                                        <img class="responsive-img" src="img/cxc.jpg" alt="Image of the cxc certificate" />
-                                                    </div>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <!-- Need to add the certificate to the site for both the degree and the gce certificate -->
-                                            <td><p>University of Cambridge General Certificate of Education</p></td>
-                                            <td><p>Barataria Senior Comprehensive School</p></td>
-                                            <td><p>June 2005</p></td>
-                                            <td>
-                                                <a class="waves-effect waves-light btn blue modal-trigger" data-target="gceview"><i class="material-icons left">visibility</i> View</a>
-                                                <div id="gceview" class="modal">
-                                                    <div class="modal-content">
-                                                        <img class="responsive-img" src="img/gce.jpg" alt="Image of the gce certificate" />
-                                                    </div>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td><p>Bachelor of Science Major in Physics</p></td>
-                                            <td><p>The University of the West Indies</p></td>
-                                            <td><p>June 2013</p></td>
-                                            <td>
-                                                <a class="waves-effect waves-light btn blue modal-trigger" data-target="uwiview"><i class="material-icons left">visibility</i> View</a>
-                                                <div id="uwiview" class="modal">
-                                                    <div class="modal-content">
-                                                        <img class="responsive-img" src="img/physdeg.jpg" alt="Image of the Physics Degree certificate" />
-                                                    </div>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </span>
-                        </div>
-                    </div>
-                    <div id="test2" class="col s12">
-                        <div class="card-panel">
-                            <span class="black-text">
-                                            <table class="centered striped responsive-table">
-                                                <thead>
-                                                    <tr>
-                                                        <th>Name of Certification</th>
-                                                        <th>Date Recieved</th>
-                                                        <th>Certificate</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    
-                                                    <tr>
-                                                        <td>JavaScript Tutorial</td>
-                                                        
-                                                        <td>26 May 2017</td>
-                                                        <td>
-                                                            <a class="waves-effect waves-light btn blue modal-trigger" data-target="jsview"><i class="material-icons left">visibility</i> View</a>
-                                                            <div id="jsview" class="modal">
-                                                                <div class="modal-content">
-                                                                    <img class="responsive-img" src="img/js.jpg" alt="Image of the JavaScript Tutorial certificate" />
-                                                                </div>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-                                    
-                                                    <tr>
-                                                        <td>HTML Fundamentals</td>
-                                                        
-                                                        <td>27 May 2017</td>
-                                                        <td>
-                                                            <a class="waves-effect waves-light btn blue modal-trigger" data-target="htmlview"><i class="material-icons left">visibility</i> View</a>
-                                                            <div id="htmlview" class="modal">
-                                                                <div class="modal-content">
-                                                                    <img class="responsive-img" src="img/html.jpg" alt="Image of the HTML Fundamentals certificate" />
-                                                                </div>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-                                    
-                                                    <tr>
-                                                        <td>CSS Fundamentals</td>
-                                                        
-                                                        <td>31 May 2017</td>
-                                                        <td>
-                                                            <a class="waves-effect waves-light btn blue modal-trigger" data-target="cssview"><i class="material-icons left">visibility</i> View</a>
-                                                            <div id="cssview" class="modal">
-                                                                <div class="modal-content">
-                                                                    <img class="responsive-img" src="img/css.jpg" alt="Image of the CSS Fundamentals certificate" />
-                                                                </div>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-                                    
-                                                    <tr>
-                                                        <td>Python 3 Tutorial</td>
-                                                        
-                                                        <td>16 June 2017</td>
-                                                        <td>
-                                                            <a class="waves-effect waves-light btn blue modal-trigger" data-target="pythonview"><i class="material-icons left">visibility</i> View</a>
-                                                            <div id="pythonview" class="modal">
-                                                                <div class="modal-content">
-                                                                    <img class="responsive-img" src="img/python.jpg" alt="Image of the Python 3 Tutorial certificate" />
-                                                                </div>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-                                    
-                                                    <tr>
-                                                        <td>jQuery Tutorial</td>
-                                                        
-                                                        <td>18 June 2017</td>
-                                                        <td>
-                                                            <a class="waves-effect waves-light btn blue modal-trigger" data-target="jqueryview"><i class="material-icons left">visibility</i> View</a>
-                                                            <div id="jqueryview" class="modal">
-                                                                <div class="modal-content">
-                                                                    <img class="responsive-img" src="img/jquery.jpg" alt="Image of the jQuery Tutorial certificate" />
-                                                                </div>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-                                    
-                                                    <tr>
-                                                        <td>SQL Fundamentals</td>
-                                                        
-                                                        <td>18 June 2017</td>
-                                                        <td>
-                                                            <a class="waves-effect waves-light btn blue modal-trigger" data-target="sqlview"><i class="material-icons left">visibility</i> View</a>
-                                                            <div id="sqlview" class="modal">
-                                                                <div class="modal-content">
-                                                                    <img class="responsive-img" src="img/sql.jpg" alt="Image of the SQL Fundamentals certificate" />
-                                                                </div>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-                                    
-                                                    <tr>
-                                                        <td>C# Tutorial</td>
-                                                        
-                                                        <td>29 June 2017</td>
-                                                        <td>
-                                                            <a class="waves-effect waves-light btn blue modal-trigger" data-target="csharpview"><i class="material-icons left">visibility</i> View</a>
-                                                            <div id="csharpview" class="modal">
-                                                                <div class="modal-content">
-                                                                    <img class="responsive-img" src="img/csharp.jpg" alt="Image of the C# Tutorial certificate" />
-                                                                </div>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-                                    
-                                                    <tr>
-                                                        <td>PHP Tutorial</td>
-                                                        
-                                                        <td>10 July 2017</td>
-                                                        <td>
-                                                            <a class="waves-effect waves-light btn blue modal-trigger" data-target="phpview"><i class="material-icons left">visibility</i> View</a>
-                                                            <div id="phpview" class="modal">
-                                                                <div class="modal-content">
-                                                                    <img class="responsive-img" src="img/php.jpg" alt="Image of the PHP Tutorial certificate" />
-                                                                </div>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-                                    
-                                                    <tr>
-                                                        <td>C++ Tutorial</td>
-                                                        
-                                                        <td>10 July 2017</td>
-                                                        <td>
-                                                            <a class="waves-effect waves-light btn blue modal-trigger" data-target="cplusview"><i class="material-icons left">visibility</i> View</a>
-                                                            <div id="cplusview" class="modal">
-                                                                <div class="modal-content">
-                                                                    <img class="responsive-img" src="img/cplus.jpg" alt="Image of the C++ Tutorial certificate" />
-                                                                </div>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-                                    
-                                                    <tr>
-                                                        <td>Java Tutorial</td>
-                                                        
-                                                        <td>16 July 2017</td>
-                                                        <td>
-                                                            <a class="waves-effect waves-light btn blue modal-trigger" data-target="javaview"><i class="material-icons left">visibility</i> View</a>
-                                                            <div id="javaview" class="modal">
-                                                                <div class="modal-content">
-                                                                    <img class="responsive-img" src="img/java.jpg" alt="Image of the Java Tutorial certificate" />
-                                                                </div>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-                                    
-                                                    <tr>
-                                                        <td>Ruby Tutorial</td>
-                                                        
-                                                        <td>31 August 2017</td>
-                                                        <td>
-                                                            <a class="waves-effect waves-light btn blue modal-trigger" data-target="rubyview"><i class="material-icons left">visibility</i> View</a>
-                                                            <div id="rubyview" class="modal">
-                                                                <div class="modal-content">
-                                                                    <img class="responsive-img" src="img/ruby.jpg" alt="Image of the Ruby Tutorial certificate" />
-                                                                </div>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </span>
-                        </div>
-                    </div>
-                    <!-- LOCATION FOR FUTURE UDEMY COURSE CERTIFICATES
-                    <div id="test3" class="col s12">
-                        <div class="card-panel">
-                            <span class="black-text">
-                                <table class="centered striped responsive-table">
-                                    <thead>
-                                        <tr>
-                                            <th>Name of Certification</th>
-                                            <th>Date Recieved</th>
-                                            <th>Certificate</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>Caribbean Examinination Council Secondary Education Certificate</td>
-                                            <td>Barataria Senior Comprehensive School</td>
-                                            <td>June 2003</td>
-                                            <td>
-                                                <a class="waves-effect waves-light btn blue modal-trigger" data-target="cxcview"><i class="material-icons left">visibility</i> View</a>
-                                                <div id="cxcview" class="modal">
-                                                    <div class="modal-content">
-                                                        <img class="responsive-img" src="img/cxc.jpg" alt="Image of the cxc certificate" />
-                                                    </div>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            INNER COMMENT: Need to add the certificate to the site for both the degree and the gce certificate
-                    <td>University of Cambridge General Certificate of Education</td>
-                    <td>Barataria Senior Comprehensive School</td>
-                    <td>June 2005</td>
-                    <td>
-                        <a class="waves-effect waves-light btn blue modal-trigger" data-target="gceview"><i class="material-icons left">visibility</i> View</a>
-                        <div id="gceview" class="modal">
-                            <div class="modal-content">
-                                <img class="responsive-img" src="img/gce.jpg" alt="Image of the gce certificate" />
-                            </div>
-                        </div>
-                    </td>
-                    </tr>
-                    <tr>
-                        <td>Bachelor of Science Major in Physics</td>
-                        <td>The University of the West Indies</td>
-                        <td>June 2013</td>
-                        <td>
-                            <a class="waves-effect waves-light btn blue modal-trigger" data-target="uwiview"><i class="material-icons left">visibility</i> View</a>
-                            <div id="uwiview" class="modal">
-                                <div class="modal-content">
-                                    <img class="responsive-img" src="img/physdeg.jpg" alt="Image of the Physics Degree certificate" />
-                                </div>
-                            </div>
-                        </td>
-                    </tr>
-                    </tbody>
-                    </table>
-                    </span>
-                </div>
-            </div> -->
-                </div>
-                <!-- TABS END HERE -->
-                <div class="row">
+                <div class="row center">
+                    <h5 class="header col s12 light"><em>“Change is the end result of all true learning.” </em></h5>
+                    <h5><strong>― Leo Buscaglia</strong></h5>
                 </div>
             </div>
         </div>
-        <div class="parallax"><img src="img/background2.jpg" alt="Unsplashed background img 1"></div>
+        <div class="parallax"><img src="img/background2.jpg" alt="Unsplashed background img 3"></div>
     </div>
-
+    <!--END OF PARALLAX SECTION-->
+    <!-- INFORMATION CENTER -->
+    <div class="container">
+        <div class="section">
+            <div class="row">
+                <div class="col s12 center">
+                    <!-- TABS START HERE -->
+                    <div class="row">
+                        <div class="col s12">
+                            <ul class="tabs">
+                                <li class="tab col s3"><a class="active blue-text" href="#formal_education">Formal Education</a></li>
+                                <li class="tab col s3"><a class="blue-text" href="#sololearn">Sololearn</a></li>
+                                <li class="tab col s3"><a class="blue-text" href="#udemy">Udemy</a></li>
+                            </ul>
+                        </div>
+                        <div id="formal_education" class="col s12">
+                            <div class="card-panel">
+                                <span class="black-text">
+                                        <table class="centered striped responsive-table">
+                                            <thead>
+                                                <tr>
+                                                    <th><p>Name of Certification</p></th>
+                                                    <th><p>Institute</p></th>
+                                                    <th><p>Date Recieved</p></th>
+                                                    <th>Certificate</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td><p>Caribbean Examinination Council Secondary Education Certificate</p></td>
+                                                    <td><p>Barataria Senior Comprehensive School</p></td>
+                                                    <td><p>June 2003</p></td>
+                                                    <td>
+                                                        <a class="waves-effect waves-light btn blue modal-trigger" data-target="cxcview"><i class="hide-on-med-and-down material-icons left">visibility</i> View</a>
+                                                        <div id="cxcview" class="modal">
+                                                            <div class="modal-content">
+                                                                <img class="responsive-img" src="img/cxc.jpg" alt="Image of the cxc certificate" />
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><p>University of Cambridge General Certificate of Education</p></td>
+                                                    <td><p>Barataria Senior Comprehensive School</p></td>
+                                                    <td><p>June 2005</p></td>
+                                                    <td>
+                                                        <a class="waves-effect waves-light btn blue modal-trigger" data-target="gceview"><i class="material-icons left">visibility</i> View</a>
+                                                        <div id="gceview" class="modal">
+                                                            <div class="modal-content">
+                                                                <img class="responsive-img" src="img/gce.jpg" alt="Image of the gce certificate" />
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><p>Bachelor of Science Major in Physics</p></td>
+                                                    <td><p>The University of the West Indies</p></td>
+                                                    <td><p>June 2013</p></td>
+                                                    <td>
+                                                        <a class="waves-effect waves-light btn blue modal-trigger" data-target="uwiview"><i class="material-icons left">visibility</i> View</a>
+                                                        <div id="uwiview" class="modal">
+                                                            <div class="modal-content">
+                                                                <img class="responsive-img" src="img/physdeg.jpg" alt="Image of the Physics Degree certificate" />
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </span>
+                            </div>
+                        </div>
+                        <!--sololearn certifications-->
+                        <div id="sololearn" class="col s12">
+                            <div class="card-panel">
+                                <span class="black-text">
+                                        <table class="centered striped responsive-table">
+                                            <thead>
+                                                <tr>
+                                                    <th>Name of Certification</th>
+                                                    <th>Date Recieved</th>
+                                                    <th>Certificate</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>JavaScript Tutorial</td>
+                                                    <td>26 May 2017</td>
+                                                    <td>
+                                                        <a class="waves-effect waves-light btn blue modal-trigger" data-target="jsview"><i class="material-icons left">visibility</i> View</a>
+                                                        <div id="jsview" class="modal">
+                                                            <div class="modal-content">
+                                                                <img class="responsive-img" src="img/js.jpg" alt="Image of the JavaScript Tutorial certificate" />
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>HTML Fundamentals</td>
+                                                    <td>27 May 2017</td>
+                                                    <td>
+                                                        <a class="waves-effect waves-light btn blue modal-trigger" data-target="htmlview"><i class="material-icons left">visibility</i> View</a>
+                                                        <div id="htmlview" class="modal">
+                                                            <div class="modal-content">
+                                                                <img class="responsive-img" src="img/html.jpg" alt="Image of the HTML Fundamentals certificate" />
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>CSS Fundamentals</td>
+                                                    <td>31 May 2017</td>
+                                                    <td>
+                                                        <a class="waves-effect waves-light btn blue modal-trigger" data-target="cssview"><i class="material-icons left">visibility</i> View</a>
+                                                        <div id="cssview" class="modal">
+                                                            <div class="modal-content">
+                                                                <img class="responsive-img" src="img/css.jpg" alt="Image of the CSS Fundamentals certificate" />
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Python 3 Tutorial</td>
+                                                    <td>16 June 2017</td>
+                                                    <td>
+                                                        <a class="waves-effect waves-light btn blue modal-trigger" data-target="pythonview"><i class="material-icons left">visibility</i> View</a>
+                                                        <div id="pythonview" class="modal">
+                                                            <div class="modal-content">
+                                                                <img class="responsive-img" src="img/python.jpg" alt="Image of the Python 3 Tutorial certificate" />
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>jQuery Tutorial</td>
+                                                    <td>18 June 2017</td>
+                                                    <td>
+                                                        <a class="waves-effect waves-light btn blue modal-trigger" data-target="jqueryview"><i class="material-icons left">visibility</i> View</a>
+                                                        <div id="jqueryview" class="modal">
+                                                            <div class="modal-content">
+                                                                <img class="responsive-img" src="img/jquery.jpg" alt="Image of the jQuery Tutorial certificate" />
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>SQL Fundamentals</td>
+                                                    <td>18 June 2017</td>
+                                                    <td>
+                                                        <a class="waves-effect waves-light btn blue modal-trigger" data-target="sqlview"><i class="material-icons left">visibility</i> View</a>
+                                                        <div id="sqlview" class="modal">
+                                                            <div class="modal-content">
+                                                                <img class="responsive-img" src="img/sql.jpg" alt="Image of the SQL Fundamentals certificate" />
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>C# Tutorial</td>
+                                                    <td>29 June 2017</td>
+                                                    <td>
+                                                        <a class="waves-effect waves-light btn blue modal-trigger" data-target="csharpview"><i class="material-icons left">visibility</i> View</a>
+                                                        <div id="csharpview" class="modal">
+                                                            <div class="modal-content">
+                                                                <img class="responsive-img" src="img/csharp.jpg" alt="Image of the C# Tutorial certificate" />
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>PHP Tutorial</td>
+                                                    <td>10 July 2017</td>
+                                                    <td>
+                                                        <a class="waves-effect waves-light btn blue modal-trigger" data-target="phpview"><i class="material-icons left">visibility</i> View</a>
+                                                        <div id="phpview" class="modal">
+                                                            <div class="modal-content">
+                                                                <img class="responsive-img" src="img/php.jpg" alt="Image of the PHP Tutorial certificate" />
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>C++ Tutorial</td>
+                                                    <td>10 July 2017</td>
+                                                    <td>
+                                                        <a class="waves-effect waves-light btn blue modal-trigger" data-target="cplusview"><i class="material-icons left">visibility</i> View</a>
+                                                        <div id="cplusview" class="modal">
+                                                            <div class="modal-content">
+                                                                <img class="responsive-img" src="img/cplus.jpg" alt="Image of the C++ Tutorial certificate" />
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Java Tutorial</td>
+                                                    <td>16 July 2017</td>
+                                                    <td>
+                                                        <a class="waves-effect waves-light btn blue modal-trigger" data-target="javaview"><i class="material-icons left">visibility</i> View</a>
+                                                        <div id="javaview" class="modal">
+                                                            <div class="modal-content">
+                                                                <img class="responsive-img" src="img/java.jpg" alt="Image of the Java Tutorial certificate" />
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Ruby Tutorial</td>
+                                                    <td>31 August 2017</td>
+                                                    <td>
+                                                        <a class="waves-effect waves-light btn blue modal-trigger" data-target="rubyview"><i class="material-icons left">visibility</i> View</a>
+                                                        <div id="rubyview" class="modal">
+                                                            <div class="modal-content">
+                                                                <img class="responsive-img" src="img/ruby.jpg" alt="Image of the Ruby Tutorial certificate" />
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </span>
+                            </div>
+                        </div>
+                        <div id="udemy" class="col s12">
+                            <div class="card-panel">
+                                <span class="black-text">
+                                        <table class="centered striped responsive-table">
+                                            <thead>
+                                                <tr>
+                                                    <th>Name of Certification</th>
+                                                    <th>Date Recieved</th>
+                                                    <th>Certificate</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Complete Python 3 Masterclass Journey</td>
+                                                    <td>Jun 29, 2018</td>
+                                                    <td>
+                                                        <a class="waves-effect waves-light btn blue modal-trigger" data-target="journeyview"><i class="material-icons left">visibility</i> View</a>
+                                                        <div id="journeyview" class="modal">
+                                                            <div class="modal-content">
+                                                                <img class="responsive-img" src="img/udemy/masterclass_journey.jpg" alt="Image of Complete Python 3 Masterclass Journey certificate" />
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+<tr>
+                                                    <td>Complete Python Masterclass</td>
+                                                    <td>Feb 2, 2018</td>
+                                                    <td>
+                                                        <a class="waves-effect waves-light btn blue modal-trigger" data-target="masterclassview"><i class="material-icons left">visibility</i> View</a>
+                                                        <div id="masterclassview" class="modal">
+                                                            <div class="modal-content">
+                                                                <img class="responsive-img" src="img/udemy/complete_masterclass.jpg" alt="Image of Complete Python Masterclass certificate" />
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Python and Django Full Stack Web Developer Bootcamp</td>
+                                                    <td>May 27, 2018</td>
+                                                    <td>
+                                                        <a class="waves-effect waves-light btn blue modal-trigger" data-target="djangoview"><i class="material-icons left">visibility</i> View</a>
+                                                        <div id="djangoview" class="modal">
+                                                            <div class="modal-content">
+                                                                <img class="responsive-img" src="img/udemy/fullstack_django.jpg" alt="Image of Python and Django Full Stack Web Developer Bootcamp certificate" />
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Python for Data Science and Machine Learning Bootcamp</td>
+                                                    <td>May 27, 2018</td>
+                                                    <td>
+                                                        <a class="waves-effect waves-light btn blue modal-trigger" data-target="dsview"><i class="material-icons left">visibility</i> View</a>
+                                                        <div id="dsview" class="modal">
+                                                            <div class="modal-content">
+                                                                <img class="responsive-img" src="img/udemy/data_science.jpg" alt="Image of Python for Data Science and Machine Learning Bootcamp certificate" />
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>The Python Mega Course: Build 10 Real World Applications</td>
+                                                    <td>May 10, 2018</td>
+                                                    <td>
+                                                        <a class="waves-effect waves-light btn blue modal-trigger" data-target="megaview"><i class="material-icons left">visibility</i> View</a>
+                                                        <div id="megaview" class="modal">
+                                                            <div class="modal-content">
+                                                                <img class="responsive-img" src="img/udemy/real_apps.jpg" alt="Image of The Python Mega Course: Build 10 Real World Applications certificate" />
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--PARALLAX SECTION-->
+    <div class="parallax-container valign-wrapper">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <div class="row center">
+                    <h5 class="header col s12 light"><em>“Education is what remains after one has forgotten what one has learned in school.” </em></h5>
+                    <h5><strong>― Albert Einstein</strong></h5>
+                </div>
+            </div>
+        </div>
+        <div class="parallax"><img src="img/background2.jpg" alt="Unsplashed background img 3"></div>
+    </div>
+    <!--END OF PARALLAX SECTION-->
     <footer class="page-footer blue">
         <div class="container">
             <div class="row">
                 <div class="col l6 s12">
                     <h5 class="white-text">Online Caribbean Education</h5>
                     <p class="grey-text text-lighten-4">Supporting the future with education...</p>
-
-
                 </div>
                 <div class="col l3 s12">
                     <h5 class="white-text">Pages</h5>
                     <ul>
                         <li><a class="white-text" href="education.html">Education</a></li>
-                        <li><a class="white-text" href="#!">Certificates</a></li>
-                        <li><a class="white-text" href="#!">Work Experience</a></li>
-                        <li><a class="white-text" href="#!">Tutoring Services</a></li>
+                        <li><a class="white-text" href="videos.html">Videos</a></li>
                     </ul>
                 </div>
                 <div class="col l3 s12">
@@ -384,13 +393,10 @@
             </div>
         </div>
     </footer>
-
-
     <!--  Scripts-->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="js/materialize.js"></script>
     <script src="js/init.js"></script>
-
 </body>
 
 </html>
