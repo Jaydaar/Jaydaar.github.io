@@ -94,3 +94,11 @@ footer.page-footer {
 
 
 /*Color of underline*/
+
+.carousel .carousel-item {
+    width: 325px !important;
+}
+
+div .modal-content {
+    height: 500px !important;
+}
